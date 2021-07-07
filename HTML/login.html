@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>회원 가입</title>
+</head>
+<body>
+	<!--
+	1.이름
+	2.이메일
+	3.비밀번호
+	4.성별
+	5.나이
+	6.취미
+	-->
+	<form method='post' action='/join'>
+	<dl>
+		<dt>이름</dt>
+		<dd><input type='text' name='memNm' placeholder='아이디를 입력...'> </dd>
+	</dl>
+	<dl>
+		<dt>이메일</dt>
+			<dd><input type='email' name='email'></dd>
+	</dl>
+	<dl>
+		<dt>비밀번호</dt>
+			<dd><input type='password' name='password' placeholder='비밀번호를 입력...'></dd>
+	</dl>
+	<input type='submit' value='회원 가입'>
+</body>
+</html>
